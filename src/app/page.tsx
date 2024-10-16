@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Layout } from "../components/Layout/Layout";
+import { Layout } from "../components/layout/Layout";
 import { useSearchParams } from "next/navigation";
 import { Header } from "../components/Header/Header"
 
@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    const cityCodeParams = cityCode ? Number(cityCode) : 244; // Código padrão
+    const cityCodeParams = cityCode ? Number(cityCode) : 244; 
     loadCity(cityCodeParams);
   }, [cityCode]);
 

@@ -6,5 +6,5 @@ export const buttonStyle: CSSProperties = {
   color: 'white',
   backgroundColor: '#1f1e31',
   borderRadius: '6px',
-  cursor: 'pointer', // Opcional: para indicar que é clicável
+  cursor: 'pointer', 
 };

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useContext } from "react";
 import { useParams } from "next/navigation";
-import { Layout } from "../../components/Layout/Layout";
+import { Layout } from "../../components/layout/Layout";
 import UserContext from "../../context/UserContext";
 
 const formatDate = (dateString) => {

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Layout } from "../../components/Layout/Layout";
+import { Layout } from "../../components/layout/Layout";
 import { Input } from "../../components/Input/Input";
 import { Button } from "../../components/Button/Button";
 

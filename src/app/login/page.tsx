@@ -1,6 +1,6 @@
 "use client"
 import { useContext, useState } from "react";
-import { Layout } from "../../components/Layout/Layout";
+import { Layout } from "../../components/layout/Layout";
 import { Button } from "../../components/Button/Button";
 import { Input } from "../../components/Input/Input";
 import { useRouter } from "next/navigation";

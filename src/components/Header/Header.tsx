@@ -13,12 +13,11 @@ export const Header = ({ title, userName }: HeaderProps) => {
   
   const context = useContext(UserContext);
   
-  // Verificação do contexto para evitar erros de desestruturação
   if (!context) {
     throw new Error("UserContext must be used within a UserContextProvider");
   }
 
-  const { setUserName } = context; // Desestruturação segura
+  const { setUserName } = context; 
 
   const handleLogin = () => {
     router.push("/login");

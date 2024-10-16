@@ -1,7 +1,7 @@
 "use client"
 import { useContext } from "react";
 import { Header } from "../../components/Header/Header";
-import { Layout } from "../../components/Layout/Layout";
+import { Layout } from "../../components/layout/Layout";
 import { UserContext, UserContextProps } from "../../context/UserContext";
 
 
